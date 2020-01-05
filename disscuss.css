@@ -1,0 +1,152 @@
+#outer
+{
+	height:autopx;
+	width:autopx;
+	background-color:;
+}
+
+
+#logo
+{
+	height:101px;
+	width:autopx;
+	margin-top:10px;
+
+}
+
+#menu2
+{
+	height:60px;
+	width:autopx;
+	margin-left:200px;
+	background-color:;
+	margin-top:-80px;
+  
+}
+#menu2 ul
+{
+list-style-type:none;
+
+}
+#menu2 ul li
+{
+display:inline;
+padding:10px;
+border-left:1px solid #42d1d0;
+border-top:1px solid #42d1d0;
+float:right;
+margin-top:19px;
+
+}
+#menu2 ul li:hover
+{
+	background-color:#42d1d0;
+	transition:0.7s ease;
+	box-shadow:2px 5px 5px black;
+}
+#menu2 ul li a
+{
+color:black;
+font-family:Lato;
+font-size:16px;
+margin-top:5px;
+text-decoration:none;
+transition:0.5s ease;
+}
+#menu2 ul li a:hover
+{
+color:white;
+font-size:18px;
+transition:0.5s ease;
+}
+#body
+{
+	height:autopx;
+	width:autopx;
+	
+	border:1px solid transparent;
+	background-attachment:fixed;
+	background-size:cover;
+}
+#black
+{
+	height:autopx;
+	width:autopx;
+	background-color:rgb(0,0,0,0.4);
+	border:1px solid transparent;
+}
+#text 
+{
+	margin-left:250px;
+	margin-top:50px;
+	color:white;
+	font-size:55px;
+	text-align:justify;
+	font-family:lato;
+	border:1px solid transparent;
+	
+}
+//#text2
+{
+	margin-left:px;
+	margin-top:0px;
+	color:white;
+	font-size:25px;
+	text-align:justify;
+	font-family:lato;
+	border:1px solid transparent;
+}
+#ques
+{
+	height:300px;
+	width:600px;
+	margin-left:300px;
+	margin-top:30px;
+	border:1px solid transparent;
+}
+textarea
+{
+	height:200px;
+	width:400px;
+	color:white;
+	outline:none;
+	margin-top:30px;
+	margin-left:100px;
+	background-color:transparent;
+	font-size:18px;
+	font-family:lato;
+}
+input
+{
+	height:40px;
+	width:250px;
+	border:none;
+	outline:none;
+	background-color:rgb(0,0,0,0.8);
+	color:white;
+	border-radius:20px;
+	font-size:25px;
+	margin-top:-30px;
+	margin-left:480px;
+	font-family:lato;
+	box-shadow:2px 5px 5px black; 
+}
+table
+{
+	height:autopx;
+	width:auto;
+	margin-left:300px;
+	margin-top:50px;
+}
+
+
+
+#footer
+{
+	height:50px;
+	width:autopx;
+	color:white;
+	font-size:16px;
+	background-color:#333333;
+	margin-top:5px;	
+}
